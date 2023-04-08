@@ -1,0 +1,112 @@
+html{
+   box-sizing: border-box;
+   /*font-size: 16px;*/
+   background-color: hsl(204, 43%, 93%);
+   font-family: 'Karla', sans-serif;
+}
+*,*::before,::after{
+   box-sizing: inherit;
+}
+
+#card{
+   /* width: 700px;
+   height: 500px;  */
+   border:none;
+   margin: 50px;
+   box-shadow: 0px 0px 15px 0px rgba(19, 5, 68, 0.6);
+
+}
+#top-part{
+   width: 100%;
+   height: 45%;
+   border: none;
+   padding: 20px;
+   background-color: white;
+}
+#top-part h2{
+   color:red;
+   font-size: 30px;
+}
+#top-part h4{
+   color:orange;
+}
+#bottom-part{
+   width: 100%;
+   height: 55%;
+   border:none;
+}
+#bottom-left{
+   display: inline-block;
+   vertical-align: top;
+   width: 100%;
+   height: 100%;
+   border: none;
+   padding: 20px;
+   background-color: hsl(218, 22%, 67%);
+}
+
+#bottom-right{
+   display:inline-block;
+   vertical-align: top;
+   width: 100%;
+   height: 100%;
+   border:none;
+   padding: 20px;
+   background-color:rgba(152, 166, 189, 0.7);
+}
+#price{
+   display: inline-block;
+   width: 30px;
+   height: 20px;
+   border: none;
+   font-size: 25px;
+   font-weight: bolder;
+}
+#per{
+   display: inline-block;
+   width: 100px;
+   height: 20px;
+   border: none;
+   margin-left: 15px;
+   position: relative;
+   top: -5px;
+   font-weight:700;
+   opacity: 0.6;
+
+}
+button{
+   width: 100%;
+   padding: 15px;
+   margin-top: 20px;
+   background-color: hsl(71, 73%, 54%);
+   border-radius: 9px;
+   font-size: 16px;
+   font-weight: 500;
+   color: brown;
+}
+button:hover{
+   cursor: pointer;
+   transform: scale(1.12);
+   background-color: blueviolet;
+   color: white;
+
+}
+ul{
+   list-style: none;
+   padding: 0px;
+}
+
+@media only screen and (min-width:800px){
+   #card{
+      width: 700px;
+      height: 500px;
+   }
+   #bottom-left, #bottom-right{
+      width: 50%;
+      height: 100%;
+   }
+}
+
+
+
+   
